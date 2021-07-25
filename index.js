@@ -4,7 +4,7 @@ const http = require('http');
 const socketio = require('socket.io');
 const { genrateMessage, genrateLocationMessage } = require('./utils/message');
 const { addUser, removeUser, getUser, getUsersInRoom } = require('./utils/users')
-const port = 3000;
+const port =  process.env.PORT || 3000;
 
 const app = express();
 const server = http.createServer(app)
