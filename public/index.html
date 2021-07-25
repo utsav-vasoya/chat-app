@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chat App</title>
+    <link rel="icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="/css/styles.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</head>
+
+<body>
+
+    <div class="centered-form">
+        <div class="centered-form__box">
+            <h1><i class='far fa-smile'></i> Chatcord</h1>
+            <form action="/chat.html">
+                <label>Username</label>
+                <input type="text" name="username" placeholder="Enter name" required>
+                <label>Select Room</label>
+
+                <select name="room" id="room" style="width: 200px; margin-bottom: 10px;" >
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="PHP">PHP</option>
+                    <option value="C#">C#</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Java">Java</option>
+                </select>
+
+                <!-- <input type="text" name="room" placeholder="Enter Group Name" required> -->
+                <button>Join</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
